@@ -1,0 +1,86 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Hitesh.png);
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+}
+
+.top{
+    width: 100%;
+height: 10vh;
+display: flex;
+/* justify-content: center; */
+/* justify-content: space-around; */
+/* background-color: gray;  */
+align-items: center;
+
+}
+
+.name{
+    margin-left: 3.3rem;
+    font-size: 1.7rem;
+    color: white;
+    white-space: nowrap;
+}
+
+.link{
+    margin-left: 40rem;
+    /* word-spacing: 7rem; */
+    display: flex;
+    gap: 10px;
+    
+}
+.link1{
+    text-decoration: none;
+    color:  #F0AE12;
+    font-size: 1.1rem;
+}
+.link2{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.link3{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.link4{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.link5{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:26em){
+    .name{
+        margin-left: 1.5rem;
+        font-size: 1.3rem;
+        color: white;
+        white-space: nowrap;
+    }
+}
